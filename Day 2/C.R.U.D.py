@@ -1,4 +1,4 @@
-import mysql.connector 
+import mysql.connector
 mysqldb= mysql.connector.connect(host="localhost", user="root", passwd="", database="dbpython")
 mycursor= mysqldb.cursor()
 mycursor.execute("create table  if not exists studentData(enrollment_no int, name VARCHAR(50), marks INT)")
