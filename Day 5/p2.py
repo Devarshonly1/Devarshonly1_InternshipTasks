@@ -12,5 +12,5 @@ class cal2:
 
 call=cal2()
 call.setdata()
-call.area() #area of circle.
-call.display() #display of area
+call.area() 
+call.display() 
