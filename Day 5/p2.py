@@ -1,6 +1,9 @@
+#Area of circle.
+
 import math
 class cal2:
     radius=0
+    
     def setdata(self):
         self.radius = float(input("Enter the radius of the circle : "))
     
