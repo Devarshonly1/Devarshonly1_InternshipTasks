@@ -9,7 +9,7 @@ class cal6:
     def display(self):
         print("The area of the square is : " , self.a)
 
-call=cal2()
+call=cal6()
 call.setdata()
 call.area()
 call.display()
